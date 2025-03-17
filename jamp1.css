@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 3000;
+    padding: 0;
+    background-color: rgb(4, 64, 36);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d0e666;
+    padding: 15px 20px;
+    margin-bottom: 100px;
+}
+.hero .hero-content h1, h6
+{
+    color: #d0e666; 
+}
+
+header .logo {
+    font-size: 10px;
+    font-weight: bold;
+}
+.logo img
+{
+    border-radius: 50%;
+    border-left-color: rgb(4, 64, 36);
+}
+.products h2{
+    color: #78e595ee;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+nav li a:hover
+{
+    color: #6cc0b7ee;
+}
+
+.hero {
+    background: url('images/camping-bg.jpg') center/cover no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.products, .guides {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-list, .guide-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product, .guide {
+    width: 200px;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img, .guide img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product img, .guide img {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out; 
+}
+
+
+.product img:hover, .guide img:hover {
+    transform: scale(1.1); 
+}
+
+.product img, .guide img {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+
+.product img:hover, .guide img:hover {
+    transform: scale(1.1); 
+    box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.8); 
+}
+.guides h2
+{
+    color: #ea6f8cee;
+}
+.scroll-container {
+    width: 100%;
+    overflow-x: auto; 
+    white-space: nowrap; 
+    padding: 10px;
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-content {
+    display: flex; 
+    gap: 15px; 
+    
+}
+
+
+.product {
+    flex: 0 0 auto; 
+    width: 200px; 
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.product:hover {
+    transform: scale(1.1);
+}
+.add-to-cart {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 15px 32px;
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 16px; 
+    border: none; 
+    border-radius: 12px; 
+    cursor: pointer; 
+  }
+  
+  .add-to-cart:hover {
+    background-color: #0d0d0b; 
+  }
+  .Stay h1{
+    color: #3dbbd7;
+    border-left-color: aliceblue;
+  }
+  
+
+
+
+
+footer {
+    background: white;
+    color: rgb(228, 221, 221);
+    text-align: center;
+    padding: 10px;
+}
